@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    width: 45vw;
+    height: 45vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.grid-item {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
