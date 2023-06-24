@@ -2,12 +2,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .grid-container {
     display: grid;
-    width: 45vw;
-    height: 45vw;
+    width: 40vw;
+    min-width: 350px;
+    height: 40vw;
+    min-height: 350px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     border-style: solid;
@@ -16,7 +19,14 @@ body{
 
 .grid-item {
     display: flex;
+    font-size: 5em;
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
